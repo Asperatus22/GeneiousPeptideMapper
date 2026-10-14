@@ -1,6 +1,6 @@
-package fr.bigault.peptidemapper.core;
+package fr.asperatus.peptidemapper.core;
 
-import fr.bigault.peptidemapper.model.MappingHit;
+import fr.asperatus.peptidemapper.model.MappingHit;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package fr.bigault.peptidemapper.model;
+package fr.asperatus.peptidemapper.model;
 
 public class MappingHit {
     private String peptide;

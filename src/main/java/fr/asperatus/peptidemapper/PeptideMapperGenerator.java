@@ -1,4 +1,4 @@
-package fr.bigault.peptidemapper;
+package fr.asperatus.peptidemapper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -230,7 +230,7 @@ public class PeptideMapperGenerator extends SequenceAnnotationGenerator {
                 for (AminoAcidSequenceDocument peptide : peptideSequences) {
                     String peptideSequence = peptide.getSequenceString();
                     int start = 0;
-                    While ((start = proteinSequence.indexOf(peptideSequence, start)) >= 0) {
+                    while ((start = proteinSequence.indexOf(peptideSequence, start)) >= 0) {
                         int end = start + peptideSequence.length();
                         SequenceAnnotation annotation = new SequenceAnnotation(
                             peptide.getName(),

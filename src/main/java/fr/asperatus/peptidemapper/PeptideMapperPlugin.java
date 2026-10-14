@@ -1,4 +1,4 @@
-package fr.bigault.peptidemapper;
+package fr.asperatus.peptidemapper;
 
 import com.biomatters.geneious.publicapi.plugin.GeneiousPlugin;
 import com.biomatters.geneious.publicapi.plugin.SequenceAnnotationGenerator;
@@ -30,7 +30,7 @@ public class PeptideMapperPlugin extends GeneiousPlugin {
 
     @Override
     public String getAuthors() {
-            return "Lionel Bigault";
+            return "Asperatus";
         }
 
     @Override

@@ -1,0 +1,15 @@
+# Ignore build output
+build/
+classes/
+
+# Ignore IDE files
+*.class
+*.jar
+*.log
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store

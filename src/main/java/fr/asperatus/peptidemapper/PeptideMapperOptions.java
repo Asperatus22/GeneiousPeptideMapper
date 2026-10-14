@@ -1,4 +1,4 @@
-package fr.bigault.peptidemapper;
+package fr.asperatus.peptidemapper;
 
 import com.biomatters.geneious.publicapi.plugin.DocumentSelectionOption;
 import com.biomatters.geneious.publicapi.plugin.DocumentType;
